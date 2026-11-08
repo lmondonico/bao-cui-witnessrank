@@ -1,0 +1,12 @@
+{
+  "dataset": "tf_bind_10",
+  "raw_rows": 8321066,
+  "unique_candidates": 1048576,
+  "expected_candidates": 1048576,
+  "duplicate_rows": 7272490,
+  "minimum_occurrences_per_candidate": 5,
+  "maximum_occurrences_per_candidate": 8,
+  "duplicate_candidates_with_label_disagreement": 1048576,
+  "maximum_duplicate_label_range": 3.9872336387634277,
+  "deduplication": "last occurrence in numeric official shard order and row order, matching Design-Bench exact oracle"
+}

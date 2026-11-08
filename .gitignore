@@ -1,0 +1,57 @@
+# Environments and dependencies
+.venv*/
+venv*/
+.external/
+
+# Python caches and build outputs
+.cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage*
+.ruff_cache/
+.mypy_cache/
+/build/
+/dist/
+/htmlcov/
+
+# Generated arrays
+*.npz
+
+# Raw and processed data
+/data/**/raw/
+/data/**/*.parquet
+/data/**/*.npy
+/data/**/*.zip
+/data/**/*.xlsx
+!/data/gb1/elife-16965-supp1-v4.xlsx
+
+# Run outputs
+/results/
+/experiments/**
+!/experiments/**/
+!/experiments/**/*.py
+
+# Models and representation caches
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.joblib
+
+# Local-only material: manuscript sources, archived ICLR-only experiments, agent instructions
+/paper/
+/_archive/
+CLAUDE.md
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.env
+.env.*
+!.env.example

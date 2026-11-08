@@ -1,0 +1,18 @@
+{
+  "source_doi": "10.7554/eLife.16965.024",
+  "source_file": "data/gb1/elife-16965-supp1-v4.xlsx",
+  "source_rows_excluding_header": 149361,
+  "missing_or_nonfinite_fitness": 0,
+  "negative_fitness": 0,
+  "invalid_variant_strings": 0,
+  "duplicate_rows": 0,
+  "usable_unique_measurements": 149361,
+  "possible_20_pow_4_variants": 160000,
+  "measured_fraction": 0.93350625,
+  "fitness_min": 0.0,
+  "fitness_max": 8.76196565571,
+  "score_transformation": "log1p(nonnegative experimental fitness); monotone, so optima are unchanged",
+  "filtering": "finite nonnegative fitness and four standard amino acids; duplicates keep first after audit",
+  "dataset": "gb1",
+  "selection_claim_scope": "measured candidates only; no imputed variants"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "trpb",
+  "raw_rows": 193170,
+  "valid_measured_non_stop_rows": 159129,
+  "unique_measured_candidates": 159129,
+  "possible_20_pow_4_candidates": 160000,
+  "missing_unmeasured_candidates": 871,
+  "stop_containing_rows_excluded": 34041,
+  "nonfinite_fitness_excluded": 0,
+  "duplicate_valid_rows": 0,
+  "fitness_min": -0.1640706614742643,
+  "fitness_max": 1.0,
+  "imputation": "none; the separate KNN-imputed 160,000-candidate table was not used"
+}

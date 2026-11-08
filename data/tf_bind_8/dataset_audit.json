@@ -1,0 +1,11 @@
+{
+  "dataset": "tf_bind_8",
+  "raw_rows": 65792,
+  "unique_candidates": 65536,
+  "expected_candidates": 65536,
+  "duplicate_rows": 256,
+  "candidates_with_duplicates": 256,
+  "duplicate_candidates_with_label_disagreement": 0,
+  "maximum_duplicate_label_range": 0.0,
+  "deduplication": "last occurrence in official shard order, matching Design-Bench exact oracle"
+}

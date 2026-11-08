@@ -1,0 +1,20 @@
+{
+  "candidate_definition": "51,714 unique measured amino-acid sequences in the pinned processed assay",
+  "conflicting_sequence_labels": 0,
+  "dataset": "GFP_AEQVI_Sarkisyan_2016",
+  "duplicate_mutant_strings": 0,
+  "exact_duplicate_rows": 0,
+  "missing_mutant": 0,
+  "missing_score": 0,
+  "nonfinite_score": 0,
+  "passed": true,
+  "raw_rows": 51714,
+  "reference_mismatches": 0,
+  "score_max": 4.12310906338,
+  "score_min": 1.28341923933,
+  "sequence_length": 238,
+  "source_doi": "10.1038/nature17995",
+  "trusted_score": "ProteinGym DMS_score; source phenotype mean_medianBrightness_per_aaseq; directionality +1",
+  "unique_mutant_strings": 51714,
+  "unique_reconstructed_sequences": 51714
+}
